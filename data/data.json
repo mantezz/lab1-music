@@ -1,0 +1,89 @@
+{
+    "artists": [
+        {
+            "id": 1,
+            "name": "Saluki",
+            "country": "Россия"
+        },
+        {
+            "id": 2,
+            "name": "Азат",
+            "country": "Россия"
+        }
+    ],
+    "genres": [
+        {
+            "id": 1,
+            "name": "Рэп"
+        }
+    ],
+    "albums": [
+        {
+            "id": 1,
+            "title": "Wild Ea$t",
+            "artist_id": 1,
+            "year": 2023
+        }
+    ],
+    "tracks": [
+        {
+            "id": 1,
+            "title": "Вылечим",
+            "album_id": 1,
+            "genre_id": 1,
+            "duration": 179
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "name": "Азат",
+            "email": "azatbokovikov@gmail.com"
+        }
+    ],
+    "playlists": [
+        {
+            "id": 1,
+            "title": "В дорогу",
+            "user_id": 1
+        }
+    ],
+    "playlist_items": [
+        {
+            "id": 1,
+            "playlist_id": 1,
+            "track_id": 1,
+            "position": 1
+        }
+    ],
+    "plans": [
+        {
+            "id": 1,
+            "name": "Стандарт",
+            "price": 199
+        }
+    ],
+    "subscriptions": [
+        {
+            "id": 1,
+            "user_id": 1,
+            "plan_id": 1,
+            "end_date": "2026-12-31"
+        }
+    ],
+    "favorites": [
+        {
+            "id": 1,
+            "user_id": 1,
+            "track_id": 1
+        }
+    ],
+    "listenings": [
+        {
+            "id": 1,
+            "user_id": 1,
+            "track_id": 1,
+            "listened_at": "2026-10-30T12:00:00"
+        }
+    ]
+}
